@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    padding: 0;
+    width: 25%;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    background-color: #00C2CB;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    background-color: #737373;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.content-container {
+    background-color: #5CE1E6;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+}
+
+.description h2 {
+    flex: 1;
+}
+
+.description p {
+    flex: 1;
+    margin-top: -10px;
+}
+
+.qn-btn {
+    flex: 1;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.qn-btn a {
+    text-align: center;
+}
+
+.qn-btn button {
+    background-color: #737373;
+    font-weight: 400;
+    border: 0;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.prevew {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prevew a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #737373;
+    text-align: center;
+    padding: 25px;
+    margin-top: 170px;
+}
+
+/* mobile part */
+@media(max-width:767px) {
+    body {
+        width: 100%;
+    }
+
+    .qn-btn button {
+        padding: 10px 70px;
+    }
+}

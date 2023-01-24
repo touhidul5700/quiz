@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+    padding: 0;
+    width: 25%;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    background-color: #00C2CB;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    background-color: #737373;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.content-container {
+    background-color: #5CE1E6;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.top-bar {
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    border: 1px solid #737373;
+}
+
+.top-bar-color {
+    background-color: #737373;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.description h2 {
+    flex: 1;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+label {
+    margin-right: 15px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+input {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+    margin-left: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+input:checked {
+    border: 6px solid #737373;
+}
+
+.qn-btn {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.qn-btn button {
+    background-color: #737373;
+    font-weight: 400;
+    border: 0;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: auto;
+    flex: 1;
+    cursor: pointer;
+}
+
+.home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #737373;
+    text-align: center;
+    padding: 25px;
+    margin-top: 170px;
+}
+
+/* mobile part */
+@media(max-width:767px) {
+    body {
+        width: 100%;
+    }
+
+    .qn-btn a {
+        padding: 10px 70px;
+    }
+}
