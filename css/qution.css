@@ -11,14 +11,18 @@ body {
     color: white;
 }
 
+
+/* question container */
 .container {
     background-color: #00C2CB;
 }
 
+/* question header */
 header {
     text-align: center;
     padding: 50px;
 }
+
 
 h1 {
     background-color: #737373;
@@ -30,6 +34,7 @@ h1 {
     color: #ffffff;
 }
 
+/* question content syle */
 .content-container {
     background-color: #5CE1E6;
     padding-bottom: 20px;
@@ -69,6 +74,8 @@ h1 {
     font-size: 14px;
     margin-left: 20px;
 }
+
+/* question form style */
 
 label {
     margin-right: 15px;
@@ -128,6 +135,7 @@ input:checked {
     text-decoration: underline;
 }
 
+/* question footer */
 footer {
     background-color: #737373;
     text-align: center;
@@ -144,4 +152,5 @@ footer {
     .qn-btn a {
         padding: 10px 70px;
     }
+
 }
